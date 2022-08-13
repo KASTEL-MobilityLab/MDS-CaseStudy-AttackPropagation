@@ -2,25 +2,24 @@
 <attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:pcmIntegration="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/pcmIntagration/">
   <attackers>
     <attacker id="_pkDk4BSqEe2C_4gtjShmsw" entityName="AgencyControlPolicyCompromiser" attacks="_ikXO4BSqEe2C_4gtjShmsw">
-      <compromisedResourceElements>
-        <resourcecontainer href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
-      </compromisedResourceElements>
-      <credentials href="mobilityaccesspolicies.context#_Ogb_0BSlEe2C_4gtjShmsw"/>
+      <compromisedComponents xsi:type="pcmIntegration:PCMElement">
+        <assemblycontext href="mobilitysystem.system#_JatGcBQ0Ee2C_4gtjShmsw"/>
+      </compromisedComponents>
     </attacker>
   </attackers>
   <attacks>
     <attack xsi:type="attack:CWEAttack" id="_ikXO4BSqEe2C_4gtjShmsw" entityName="CWE Attack Compromise Access Control" category="_MDwvwBSqEe2C_4gtjShmsw"/>
   </attacks>
   <vulnerabilites>
-    <vulnerability xsi:type="attack:CWEVulnerability" id="_VpdesBSqEe2C_4gtjShmsw" entityName="ImproperAccessControlInAgency" cweID="_MDwvwBSqEe2C_4gtjShmsw"/>
+    <vulnerability xsi:type="attack:CWEVulnerability" id="_VpdesBSqEe2C_4gtjShmsw" entityName="ImproperAccessControlInAgency" confidentialityImpact="High" integrityImpact="High" availabilityImpact="High" takeOver="true" cweID="_MDwvwBSqEe2C_4gtjShmsw"/>
   </vulnerabilites>
   <categoryspecification>
     <categories xsi:type="attack:CWEID" id="_MDwvwBSqEe2C_4gtjShmsw" entityName="CWE 284: Improper Access Control" cweID="284"/>
   </categoryspecification>
   <systemintegration>
     <vulnerabilities xsi:type="pcmIntegration:VulnerabilitySystemIntegration" id="_NTMh4BSrEe2C_4gtjShmsw" entityName="IntegrationOf284ToAgency" vulnerability="_VpdesBSqEe2C_4gtjShmsw">
-      <pcmelement entityName="VulnerabilityIntegrationAgencyElement">
-        <assemblycontext href="mobilitysystem.system#_K_3tcBQ0Ee2C_4gtjShmsw"/>
+      <pcmelement>
+        <linkingresource href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
       </pcmelement>
     </vulnerabilities>
   </systemintegration>

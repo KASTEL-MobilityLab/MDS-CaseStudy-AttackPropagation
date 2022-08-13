@@ -1,12 +1,6 @@
 <?xml version="1.0" encoding="ASCII"?>
 <resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="MobilityResourceEnvironment">
-  <linkingResources__ResourceEnvironment id="_etCNAAtfEe2IgscPlV5AQA" entityName="AgencyNetwork" connectedResourceContainers_LinkingResource="_V_TA0AtfEe2IgscPlV5AQA _h6JCMAtfEe2IgscPlV5AQA">
-    <communicationLinkResourceSpecifications_LinkingResource id="_etC0EAtfEe2IgscPlV5AQA">
-      <latency_CommunicationLinkResourceSpecification/>
-      <throughput_CommunicationLinkResourceSpecification/>
-    </communicationLinkResourceSpecifications_LinkingResource>
-  </linkingResources__ResourceEnvironment>
-  <linkingResources__ResourceEnvironment id="_nKuyEAtfEe2IgscPlV5AQA" entityName="Provider1Network" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _h6JCMAtfEe2IgscPlV5AQA">
+  <linkingResources__ResourceEnvironment id="_nKuyEAtfEe2IgscPlV5AQA" entityName="Network" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _V_TA0AtfEe2IgscPlV5AQA">
     <communicationLinkResourceSpecifications_LinkingResource id="_nKvZIAtfEe2IgscPlV5AQA">
       <latency_CommunicationLinkResourceSpecification/>
       <throughput_CommunicationLinkResourceSpecification/>
@@ -38,13 +32,6 @@
       <processingRate_ProcessingResourceSpecification specification="1"/>
       <writeProcessingRate/>
       <readProcessingRate/>
-    </activeResourceSpecifications_ResourceContainer>
-  </resourceContainer_ResourceEnvironment>
-  <resourceContainer_ResourceEnvironment id="_h6JCMAtfEe2IgscPlV5AQA" entityName="RestServer">
-    <activeResourceSpecifications_ResourceContainer id="_4UpXgBGNEe2Xl4KPR9I0OQ">
-      <schedulingPolicy href="pathmap://PCM_MODELS/Palladio.resourcetype#FCFS"/>
-      <activeResourceType_ActiveResourceSpecification href="pathmap://PCM_MODELS/Palladio.resourcetype#_oro4gG3fEdy4YaaT-RYrLQ"/>
-      <processingRate_ProcessingResourceSpecification/>
     </activeResourceSpecifications_ResourceContainer>
   </resourceContainer_ResourceEnvironment>
 </resourceenvironment:ResourceEnvironment>
