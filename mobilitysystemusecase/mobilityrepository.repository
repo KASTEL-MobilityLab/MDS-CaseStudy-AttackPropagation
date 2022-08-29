@@ -44,9 +44,7 @@
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_0LRDsAqwEe2IgscPlV5AQA" entityName="Agency">
     <signatures__OperationInterface id="_FwfVEAtNEe2IgscPlV5AQA" entityName="pullFromProvider" returnType__OperationSignature="_5E7ocAtMEe2IgscPlV5AQA">
-      <parameters__OperationSignature parameterName="providerId">
-        <dataType__Parameter xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-      </parameters__OperationSignature>
+      <parameters__OperationSignature dataType__Parameter="_sIolEBF2Ee2Xl4KPR9I0OQ" parameterName="provider"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_KtI_0AtOEe2IgscPlV5AQA" entityName="pullFromPolicy" returnType__OperationSignature="_5E7ocAtMEe2IgscPlV5AQA"/>
   </interfaces__Repository>
@@ -59,7 +57,7 @@
       <parameters__OperationSignature dataType__Parameter="_sIolEBF2Ee2Xl4KPR9I0OQ" parameterName="provider"/>
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_df6pYBQBEe2liLCwGOTKiw" entityName="getPolicyRequestFromProvider">
-      <parameters__OperationSignature dataType__Parameter="_J2ir0AtKEe2IgscPlV5AQA" parameterName="provider"/>
+      <parameters__OperationSignature dataType__Parameter="_sIolEBF2Ee2Xl4KPR9I0OQ" parameterName="provider"/>
     </signatures__OperationInterface>
   </interfaces__Repository>
   <interfaces__Repository xsi:type="repository:OperationInterface" id="_wqdrhRQpEe2liLCwGOTKiw" entityName="ProviderApplicationNetworking">
@@ -68,24 +66,8 @@
     </signatures__OperationInterface>
     <signatures__OperationInterface id="_wqdrhxQpEe2liLCwGOTKiw" entityName="getDataRequestFromAgency"/>
   </interfaces__Repository>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_J2ir0AtKEe2IgscPlV5AQA" entityName="ProviderUser" parentType_CompositeDataType="_sIolEBF2Ee2Xl4KPR9I0OQ">
-    <innerDeclaration_CompositeDataType entityName="providerId">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </innerDeclaration_CompositeDataType>
-    <innerDeclaration_CompositeDataType entityName="providerName">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-    </innerDeclaration_CompositeDataType>
-  </dataTypes__Repository>
   <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_5E7ocAtMEe2IgscPlV5AQA" entityName="Data">
     <innerDeclaration_CompositeDataType entityName="information">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
-    </innerDeclaration_CompositeDataType>
-  </dataTypes__Repository>
-  <dataTypes__Repository xsi:type="repository:CompositeDataType" id="_ip29gBF2Ee2Xl4KPR9I0OQ" entityName="AgencyUser" parentType_CompositeDataType="_sIolEBF2Ee2Xl4KPR9I0OQ">
-    <innerDeclaration_CompositeDataType entityName="agencyId : INT">
-      <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.0"/>
-    </innerDeclaration_CompositeDataType>
-    <innerDeclaration_CompositeDataType entityName="agencyName : STRING">
       <datatype_InnerDeclaration xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
     </innerDeclaration_CompositeDataType>
   </dataTypes__Repository>

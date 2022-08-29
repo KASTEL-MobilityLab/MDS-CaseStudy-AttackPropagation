@@ -7,7 +7,6 @@
     </attributeprovider>
     <attributeprovider xsi:type="structure:PCMAttributeProvider" id="_N96hkBSlEe2C_4gtjShmsw" entityName="AttributeProvider Agency">
       <attribute id="_iQXM0RdzEe2nfb7vqZSisA" entityName="AgencyAdmin" attributevalue="_6Qi9UBGqEe2FHuMBQuQleQ" attribute="_0Tl2shGqEe2FHuMBQuQleQ"/>
-      <resourcecontainer href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
     </attributeprovider>
     <attributeprovider xsi:type="structure:PCMAttributeProvider" id="_mOB14BdrEe2nfb7vqZSisA" entityName="">
       <attribute id="_lIz5QRd2Ee2nfb7vqZSisA" entityName="RestAPI" attributevalue="_ZNTwkBd2Ee2nfb7vqZSisA" attribute="_0Tl2shGqEe2FHuMBQuQleQ"/>
