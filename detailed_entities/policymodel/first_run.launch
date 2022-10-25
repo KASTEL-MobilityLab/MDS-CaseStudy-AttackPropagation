@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <launchConfiguration type="pcm.dataprocessing.context.attackeranalysis.launcher.config">
     <booleanAttribute key="Graph Creation" value="true"/>
-    <stringAttribute key="Select Allocation Model" value="platform:/resource/mobilitysystemusecase/mobilityallocation.allocation"/>
+    <stringAttribute key="Select Allocation Model" value="platform:/resource/policymodel/mobilityallocation.allocation"/>
     <stringAttribute key="Select Analysis Type" value="Insider"/>
-    <stringAttribute key="Select Attacker Model" value="platform:/resource/mobilitysystemusecase/mobilityattacker.attacker"/>
-    <stringAttribute key="Select Context Model" value="platform:/resource/mobilitysystemusecase/mobilityaccesspolicies.context"/>
+    <stringAttribute key="Select Attacker Model" value="platform:/resource/policymodel/mobilityattacker.attacker"/>
+    <stringAttribute key="Select Context Model" value="platform:/resource/policymodel/mobilityaccesspolicies.context"/>
     <stringAttribute key="Select Data Model" value=""/>
-    <stringAttribute key="Select Modifiaction Model" value="platform:/resource/mobilitysystemusecase/My.kamp4attackmodificationmarks"/>
-    <stringAttribute key="Select Repository Model" value="platform:/resource/mobilitysystemusecase/mobilityrepository.repository"/>
+    <stringAttribute key="Select Modifiaction Model" value="platform:/resource/policymodel/My.kamp4attackmodificationmarks"/>
+    <stringAttribute key="Select Repository Model" value="platform:/resource/policymodel/mobilityrepository.repository"/>
     <stringAttribute key="Select Usage Model" value=""/>
 </launchConfiguration>
