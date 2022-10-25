@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ASCII"?>
+<allocation:Allocation xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:allocation="http://palladiosimulator.org/PalladioComponentModel/Allocation/5.2" id="_1KPFkBdiEe2nfb7vqZSisA" entityName="New Allocation">
+  <targetResourceEnvironment_Allocation href="mobilityresourceenvironment.resourceenvironment#/"/>
+  <system_Allocation href="mobilitysystem.system#_CsYNQBQ0Ee2C_4gtjShmsw"/>
+  <allocationContexts_Allocation id="_Z5JlcDeMEe2ff9aGLv4RYQ" entityName="Allocation_Assembly_AgencyApplication">
+    <resourceContainer_AllocationContext href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+    <assemblyContext_AllocationContext href="mobilitysystem.system#_K_3tcBQ0Ee2C_4gtjShmsw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_aXxbIDeMEe2ff9aGLv4RYQ" entityName="Allocation_Assembly_VehicleManager">
+    <resourceContainer_AllocationContext href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+    <assemblyContext_AllocationContext href="mobilitysystem.system#_KElbIDd5Ee245tSH0empcw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_bSn50DeMEe2ff9aGLv4RYQ" entityName="Allocation_Assembly_AgencyDatabaseManager">
+    <resourceContainer_AllocationContext href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+    <assemblyContext_AllocationContext href="mobilitysystem.system#_4oxJ4DeLEe2Bt5wPYfQPLA"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_bqu30DeMEe2ff9aGLv4RYQ" entityName="Allocation_Assembly_ProviderAuthentication">
+    <resourceContainer_AllocationContext href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+    <assemblyContext_AllocationContext href="mobilitysystem.system#_YEXvwDd5Ee245tSH0empcw"/>
+  </allocationContexts_Allocation>
+  <allocationContexts_Allocation id="_demCIDeMEe2ff9aGLv4RYQ" entityName="Allocation_Assembly_Provider1">
+    <resourceContainer_AllocationContext href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+    <assemblyContext_AllocationContext href="mobilitysystem.system#_JatGcBQ0Ee2C_4gtjShmsw"/>
+  </allocationContexts_Allocation>
+</allocation:Allocation>

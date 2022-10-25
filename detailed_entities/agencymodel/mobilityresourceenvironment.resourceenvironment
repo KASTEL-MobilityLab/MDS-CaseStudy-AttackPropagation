@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ASCII"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="MobilityResourceEnvironment">
+  <linkingResources__ResourceEnvironment id="_nKuyEAtfEe2IgscPlV5AQA" entityName="AgencyAndProvider1Network" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _V_TA0AtfEe2IgscPlV5AQA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_nKvZIAtfEe2IgscPlV5AQA">
+      <latency_CommunicationLinkResourceSpecification/>
+      <throughput_CommunicationLinkResourceSpecification/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <linkingResources__ResourceEnvironment id="_ro3wYC9FEe29UuYapkbhlg" entityName="Provider1AndUserNetwork" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _ks5cwC9FEe29UuYapkbhlg">
+    <communicationLinkResourceSpecifications_LinkingResource id="_ro4XcC9FEe29UuYapkbhlg">
+      <latency_CommunicationLinkResourceSpecification/>
+      <throughput_CommunicationLinkResourceSpecification/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <linkingResources__ResourceEnvironment id="_sAj3oC9FEe29UuYapkbhlg" entityName="Provider1AndVehicleNetwork" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _ok9TcC9FEe29UuYapkbhlg">
+    <communicationLinkResourceSpecifications_LinkingResource id="_sAkesC9FEe29UuYapkbhlg">
+      <latency_CommunicationLinkResourceSpecification/>
+      <throughput_CommunicationLinkResourceSpecification/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <linkingResources__ResourceEnvironment id="_6BuQsDWlEe2B1bzsts2BnA" entityName="Provider1AndDatabaseNetwork" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _30sYcDWlEe2B1bzsts2BnA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_6Bve0DWlEe2B1bzsts2BnA">
+      <latency_CommunicationLinkResourceSpecification/>
+      <throughput_CommunicationLinkResourceSpecification/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_V_TA0AtfEe2IgscPlV5AQA" entityName="Agency"/>
+  <resourceContainer_ResourceEnvironment id="_YShAoAtfEe2IgscPlV5AQA" entityName="Provider1"/>
+  <resourceContainer_ResourceEnvironment id="_ks5cwC9FEe29UuYapkbhlg" entityName="User"/>
+  <resourceContainer_ResourceEnvironment id="_ok9TcC9FEe29UuYapkbhlg" entityName="Provider1Vehicle"/>
+  <resourceContainer_ResourceEnvironment id="_30sYcDWlEe2B1bzsts2BnA" entityName="Provider1Database"/>
+</resourceenvironment:ResourceEnvironment>

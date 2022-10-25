@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<KAMP4attackModificationmarks:KAMP4attackModificationRepository xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:KAMP4attackModificationmarks="http://sdq.ipd.kit.edu/KAMP4attackModificationmarks/1.0" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:system="http://www.palladiosimulator.org/pcm/confidentiality/context/systemSpecification/0.1/">
+  <changePropagationSteps>
+    <compromisedresource id="_EYNbsEgjEe2m1d25UGrCIA">
+      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_ks5cwC9FEe29UuYapkbhlg"/>
+    </compromisedresource>
+    <compromisedresource id="_EbMeQEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_ro3wYC9FEe29UuYapkbhlg"/>
+      <causingElements href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+      <causingElements href="mobilityaccesspolicies.context#_lIz5QRd2Ee2nfb7vqZSisA"/>
+    </compromisedresource>
+    <compromisedresource id="_EbTzAEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
+      <causingElements href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+      <causingElements href="mobilityaccesspolicies.context#_lIz5QRd2Ee2nfb7vqZSisA"/>
+    </compromisedresource>
+    <compromisedresource id="_Ee55kEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_30sYcDWlEe2B1bzsts2BnA"/>
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+      <causingElements href="mobilityaccesspolicies.context#_lIz5QRd2Ee2nfb7vqZSisA"/>
+      <causingElements href="mobilityaccesspolicies.context#_eL1ncRdzEe2nfb7vqZSisA"/>
+      <causingElements href="mobilityaccesspolicies.context#_iQXM0RdzEe2nfb7vqZSisA"/>
+    </compromisedresource>
+    <compromisedassembly id="_EYl2MEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_ks5cwC9FEe29UuYapkbhlg"/>
+      <causingElements href="mobilityattacker.attacker#_VpdesBSqEe2C_4gtjShmsw"/>
+    </compromisedassembly>
+    <compromisedassembly id="_EcoBoEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+    </compromisedassembly>
+    <compromisedassembly id="_EcoBoUgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+    </compromisedassembly>
+    <compromisedassembly id="_EcoozkgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+    </compromisedassembly>
+    <compromisedassembly id="_EfXzo0gjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="composition:AssemblyContext" href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_30sYcDWlEe2B1bzsts2BnA"/>
+    </compromisedassembly>
+    <contextchange id="_EYNbsUgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="system:UsageSpecification" href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_ks5cwC9FEe29UuYapkbhlg"/>
+    </contextchange>
+    <contextchange id="_Ea7_kUgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="system:UsageSpecification" href="mobilityaccesspolicies.context#_lIz5QRd2Ee2nfb7vqZSisA"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
+    </contextchange>
+    <contextchange id="_EdKNIEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="system:UsageSpecification" href="mobilityaccesspolicies.context#_eL1ncRdzEe2nfb7vqZSisA"/>
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </contextchange>
+    <contextchange id="_EdKNIUgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="system:UsageSpecification" href="mobilityaccesspolicies.context#_iQXM0RdzEe2nfb7vqZSisA"/>
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </contextchange>
+    <compromisedlinkingresource id="_EYWloEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="mobilityresourceenvironment.resourceenvironment#_ro3wYC9FEe29UuYapkbhlg"/>
+      <causingElements href="mobilityresourceenvironment.resourceenvironment#_ks5cwC9FEe29UuYapkbhlg"/>
+      <causingElements href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+    </compromisedlinkingresource>
+    <compromisedlinkingresource id="_Ea7_kEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityattacker.attacker#_VpdesBSqEe2C_4gtjShmsw"/>
+    </compromisedlinkingresource>
+    <compromisedlinkingresource id="_EenlsEgjEe2m1d25UGrCIA" toolderived="true">
+      <affectedElement xsi:type="resourceenvironment:LinkingResource" href="mobilityresourceenvironment.resourceenvironment#_sAj3oC9FEe29UuYapkbhlg"/>
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      <causingElements href="mobilityaccesspolicies.context#_9p7FoDXVEe2hY7wnVLLxoA"/>
+      <causingElements href="mobilityaccesspolicies.context#_lIz5QRd2Ee2nfb7vqZSisA"/>
+      <causingElements href="mobilityaccesspolicies.context#_eL1ncRdzEe2nfb7vqZSisA"/>
+      <causingElements href="mobilityaccesspolicies.context#_iQXM0RdzEe2nfb7vqZSisA"/>
+    </compromisedlinkingresource>
+    <compromisedservice id="_EYl2SEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2Q0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EYl2SUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2REgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EYl2SkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2RUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EYmdQEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2RkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EYmdQUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2R0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoouUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdQkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcooukgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdQ0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecoou0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdREgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoovEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdRUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoovUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdRkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoovkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdR0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecoov0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdSEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoowEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdSUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoowUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdSkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoowkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdS0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecoow0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdTEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcooyUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdUkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcooykgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdU0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecooy0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdVEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoozEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdVUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EcoozUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYmdVkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecoo0UgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EaKjgkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_Ecoo0kgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EaKjg0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EfXzpkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EaKjgEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <compromisedservice id="_EfXzp0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EaKjgUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+    </compromisedservice>
+    <servicerestrictioncontainer>
+      <servicerestriction id="_EYl2Q0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_2LZWoCulEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_k6GYgCumEe25ieRmRn0Hpw"/>
+      </servicerestriction>
+      <servicerestriction id="_EYl2REgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_67NUsCulEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_k7LWkCumEe25ieRmRn0Hpw"/>
+      </servicerestriction>
+      <servicerestriction id="_EYl2RUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_brSQ0CusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_AQ4O4DXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EYl2RkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_ARD1EDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EYl2R0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_L_uMAEfpEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_aICVEEfqEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdQkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_2qwsEAtMEe2IgscPlV5AQA"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_cc1psBQrEe2liLCwGOTKiw"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdQ0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_yo1SQAtNEe2IgscPlV5AQA"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_d9HwsBQrEe2liLCwGOTKiw"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdREgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_wqdrhxQpEe2liLCwGOTKiw"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_wmwWkBQxEe2C_4gtjShmsw"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdRUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_LqvBAEfJEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_OQ2rsEfqEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdRkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_brSQ0CusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_ORaFUEfqEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdR0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_ORngsEfqEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdSEgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_KxXJAEfJEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_OR2xQEfqEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdSUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_NXxrcEfmEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_aMuLUEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdSkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_QMfGMEfPEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_aM3VQEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdS0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_NM-JoEfmEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_aNAfMEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdTEgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_VxDRkCutEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_aNJpIEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdUkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_VxDRkCutEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_HnQmkDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdU0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_EC0BoC9EEe29UuYapkbhlg"/>
+        <assemblycontext href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_IMPi8DXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdVEgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_H414AC9EEe29UuYapkbhlg"/>
+        <assemblycontext href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_IMXewDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdVUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_F1RxEEfrEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_cqM6YEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EYmdVkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_0FQsEEfqEe2wEeRlV7WywQ"/>
+        <assemblycontext href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_cqWrYEfrEe2wEeRlV7WywQ"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjgEgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_uTkRgC9EEe29UuYapkbhlg"/>
+        <assemblycontext href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_xm1ZEC9EEe29UuYapkbhlg"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjgUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_q2ftsC9EEe29UuYapkbhlg"/>
+        <assemblycontext href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_xnLXUC9EEe29UuYapkbhlg"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjgkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_FwfVEAtNEe2IgscPlV5AQA"/>
+        <assemblycontext href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_Pi_lQBQyEe2C_4gtjShmsw"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjg0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_df6pYBQBEe2liLCwGOTKiw"/>
+        <assemblycontext href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_rk5JwBQyEe2C_4gtjShmsw"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjhEgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_lrcHICusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_7-o8YDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_JrDDQDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjhUgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_gSyAYCusEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_7-o8YDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_JrK_EDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjhkgjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_Sp23ICutEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_7-o8YDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_K1hSUDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+      <servicerestriction id="_EaKjh0gjEe2m1d25UGrCIA">
+        <signature xsi:type="repository:OperationSignature" href="mobilityrepository.repository#_QZn54CutEe25ieRmRn0Hpw"/>
+        <assemblycontext href="mobilitysystem.system#_7-o8YDaBEe2ZjtNGKoCfqA"/>
+        <service href="mobilityrepository.repository#_K1onEDXYEe2hY7wnVLLxoA"/>
+      </servicerestriction>
+    </servicerestrictioncontainer>
+    <compromiseddata id="_EYl2OkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2MUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2O0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2MkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2PEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2M0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2PUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2NEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2PkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2NUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2P0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2NkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2QEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2N0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2QUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2OEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EYl2QkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EYl2OUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvwUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIoUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvwkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIokgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvw0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIo0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvxEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIpEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvxUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIpUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvxkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIpkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvx0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIp0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvyEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIqEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvyUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIqUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvykgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIqkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvy0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIq0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvzEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIrEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvzUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIrUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvzkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIrkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQvz0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIr0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv0EgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIsEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv0UgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIsUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv0kgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIskgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv00gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQIs0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv1EgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvuUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv1UgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvukgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv1kgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvu0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv10gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvvEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv2EgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvvUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv2UgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvvkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv2kgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvv0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbQv20gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbQvwEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzB0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzAUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzCEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzAkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzCUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzA0gjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzCkgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzBEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzC0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzBUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_EbTzDEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_EbTzBkgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_Ee6go0gjEe2m1d25UGrCIA" toolderived="true" affectedElement="_Ee6goEgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_Ee6gpEgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_Ee6goUgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <compromiseddata id="_Ee6gpUgjEe2m1d25UGrCIA" toolderived="true" affectedElement="_Ee6gokgjEe2m1d25UGrCIA">
+      <causingElements href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+    </compromiseddata>
+    <datamodelcontainer>
+      <datamodelattacker id="_EYl2MUgjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_2LZWoCulEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2MkgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_2LZWoCulEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2M0gjEe2m1d25UGrCIA" referenceName="providerUser">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_67NUsCulEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2NEgjEe2m1d25UGrCIA" referenceName="data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_67NUsCulEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2NUgjEe2m1d25UGrCIA" referenceName="tripData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_brSQ0CusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2NkgjEe2m1d25UGrCIA" referenceName="tripId">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2N0gjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2OEgjEe2m1d25UGrCIA" referenceName="tripsQuery">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_L_uMAEfpEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EYl2OUgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_L_uMAEfpEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIoUgjEe2m1d25UGrCIA" referenceName="data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_2qwsEAtMEe2IgscPlV5AQA"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIokgjEe2m1d25UGrCIA" referenceName="Data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_C-EiYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIo0gjEe2m1d25UGrCIA" referenceName="provider">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_C-EiYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIpEgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_yo1SQAtNEe2IgscPlV5AQA"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIpUgjEe2m1d25UGrCIA" referenceName="provider">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_df6pYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIpkgjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_df6pYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIp0gjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_wqdrhxQpEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIqEgjEe2m1d25UGrCIA" referenceName="Data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_C-EiYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIqUgjEe2m1d25UGrCIA" referenceName="provider">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_C-EiYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIqkgjEe2m1d25UGrCIA" referenceName="tripId">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_LqvBAEfJEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIq0gjEe2m1d25UGrCIA" referenceName="tripData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_brSQ0CusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIrEgjEe2m1d25UGrCIA" referenceName="tripId">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIrUgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_cjgSQCusEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIrkgjEe2m1d25UGrCIA" referenceName="tripData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_KxXJAEfJEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIr0gjEe2m1d25UGrCIA" referenceName="vehicleId">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_NXxrcEfmEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIsEgjEe2m1d25UGrCIA" referenceName="vehicleId">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_QMfGMEfPEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIsUgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_QMfGMEfPEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIskgjEe2m1d25UGrCIA" referenceName="vehicleData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_NM-JoEfmEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQIs0gjEe2m1d25UGrCIA" referenceName="vehicleData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_VxDRkCutEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvuUgjEe2m1d25UGrCIA" referenceName="vehicleData">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_VxDRkCutEe25ieRmRn0Hpw"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvukgjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_EC0BoC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvu0gjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_EC0BoC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvvEgjEe2m1d25UGrCIA" referenceName="data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_H414AC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvvUgjEe2m1d25UGrCIA" referenceName="eventsQuery">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_F1RxEEfrEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvvkgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_F1RxEEfrEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvv0gjEe2m1d25UGrCIA" referenceName="statusChangesQuery">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_0FQsEEfqEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbQvwEgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_0FQsEEfqEe2wEeRlV7WywQ"/>
+        <context href="mobilitysystem.system#_8kQx8DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzAUgjEe2m1d25UGrCIA" referenceName="provider">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_FwfVEAtNEe2IgscPlV5AQA"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzAkgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_FwfVEAtNEe2IgscPlV5AQA"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzA0gjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_wqdrhxQpEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzBEgjEe2m1d25UGrCIA" referenceName="provider">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_sIolEBF2Ee2Xl4KPR9I0OQ"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_df6pYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzBUgjEe2m1d25UGrCIA" referenceName="path">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_df6pYBQBEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_EbTzBkgjEe2m1d25UGrCIA" referenceName="Data">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_2eY_4DaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_wqdrhhQpEe2liLCwGOTKiw"/>
+        <context href="mobilitysystem.system#_38pGkDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_Ee6goEgjEe2m1d25UGrCIA" referenceName="query">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_uTkRgC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_Ee6goUgjEe2m1d25UGrCIA" referenceName="query">
+        <dataType xsi:type="repository:PrimitiveDataType" href="pathmap://PCM_MODELS/PrimitiveTypes.repository#//@dataTypes__Repository.1"/>
+        <source href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_q2ftsC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+      <datamodelattacker id="_Ee6gokgjEe2m1d25UGrCIA">
+        <dataType xsi:type="repository:CompositeDataType" href="mobilityrepository.repository#_5E7ocAtMEe2IgscPlV5AQA"/>
+        <source href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+        <method href="mobilityrepository.repository#_q2ftsC9EEe29UuYapkbhlg"/>
+        <context href="mobilitysystem.system#_5QPccDaBEe2ZjtNGKoCfqA"/>
+      </datamodelattacker>
+    </datamodelcontainer>
+  </changePropagationSteps>
+  <seedModifications>
+    <attackcomponent id="_4dHc8DauEe2RMOS0axlocw">
+      <affectedElement xsi:type="attacker:Attacker" href="mobilityattacker.attacker#_pkDk4BSqEe2C_4gtjShmsw"/>
+    </attackcomponent>
+  </seedModifications>
+</KAMP4attackModificationmarks:KAMP4attackModificationRepository>

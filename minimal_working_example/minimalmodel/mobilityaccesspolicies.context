@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context:ConfidentialAccessSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.palladiosimulator.org/pcm/confidentiality/context/policy/0.1/" xmlns:context="http://www.palladiosimulator.org/pcm/confidentiality/context/0.1/" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" xmlns:structure="http://www.palladiosimulator.org/pcm/confidentiality/context/specification/pcm/structure/0.1/" xmlns:systemcontext="http://www.palladiosimulator.org/pcm/confidentiality/context/systemcontext/0.1/">
+  <pcmspecificationcontainer id="_E77-cBGqEe2FHuMBQuQleQ">
+    <attributeprovider xsi:type="structure:PCMAttributeProvider" id="_d0_31RGsEe2FHuMBQuQleQ" entityName="AttributeProvider ProviderAdmin">
+      <attribute id="_eL1ncRdzEe2nfb7vqZSisA" entityName="ProviderAdmin" attributevalue="_1Kis0BGqEe2FHuMBQuQleQ" attribute="_0Tl2shGqEe2FHuMBQuQleQ"/>
+      <assemblycontext href="mobilitysystem.system#_JatGcBQ0Ee2C_4gtjShmsw"/>
+    </attributeprovider>
+    <attributeprovider xsi:type="structure:PCMAttributeProvider" id="_N96hkBSlEe2C_4gtjShmsw" entityName="AttributeProvider Agency">
+      <attribute id="_iQXM0RdzEe2nfb7vqZSisA" entityName="AgencyAdmin" attributevalue="_6Qi9UBGqEe2FHuMBQuQleQ" attribute="_0Tl2shGqEe2FHuMBQuQleQ"/>
+    </attributeprovider>
+    <attributeprovider xsi:type="structure:PCMAttributeProvider" id="_mOB14BdrEe2nfb7vqZSisA" entityName="">
+      <attribute id="_lIz5QRd2Ee2nfb7vqZSisA" entityName="RestAPI" attributevalue="_ZNTwkBd2Ee2nfb7vqZSisA" attribute="_0Tl2shGqEe2FHuMBQuQleQ"/>
+      <linkingresource href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
+    </attributeprovider>
+  </pcmspecificationcontainer>
+  <policyset id="_EnxFQRGqEe2FHuMBQuQleQ" entityName="MobilitySystemRules">
+    <policy id="_L4cBERGrEe2FHuMBQuQleQ" entityName="Agency">
+      <rule id="_L5ZaMBSnEe2C_4gtjShmsw" entityName="AgencyAdmin">
+        <condition xsi:type="SimpleAttributeCondition" id="_OdzQpxSnEe2C_4gtjShmsw" entityName="AgencyAdminCondition" attribute="_iQXM0RdzEe2nfb7vqZSisA"/>
+        <target>
+          <match xsi:type="structure:EntityMatch" id="_aofAYBe-Ee2_6aaJ3B0o_Q" entityName="AgencyResourceContainer">
+            <entity xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+          </match>
+        </target>
+      </rule>
+    </policy>
+    <policy id="_UEomcRGrEe2FHuMBQuQleQ" entityName="Provider">
+      <rule id="_FOLTEBGsEe2FHuMBQuQleQ" entityName="ProviderAdmin">
+        <condition xsi:type="SimpleAttributeCondition" id="_XGupBxGsEe2FHuMBQuQleQ" entityName="ProviderAdmin Condition" attribute="_eL1ncRdzEe2nfb7vqZSisA"/>
+        <target>
+          <match xsi:type="structure:EntityMatch" id="_aCFU8BGuEe2FHuMBQuQleQ" entityName="Provider1ResourceContainer">
+            <entity xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+          </match>
+        </target>
+      </rule>
+    </policy>
+    <policy id="_dH3hoRd2Ee2nfb7vqZSisA" entityName="RestAPI">
+      <rule id="_gklgIBd2Ee2nfb7vqZSisA" entityName="RestCommunication">
+        <condition xsi:type="SimpleAttributeCondition" id="_hGlZ9xd2Ee2nfb7vqZSisA" entityName="RestAPI Condition" attribute="_lIz5QRd2Ee2nfb7vqZSisA"/>
+        <target>
+          <match xsi:type="structure:EntityMatch" id="_pvhlsBd2Ee2nfb7vqZSisA" entityName="AgencyComponent">
+            <entity xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_V_TA0AtfEe2IgscPlV5AQA"/>
+          </match>
+        </target>
+        <target>
+          <match xsi:type="structure:EntityMatch" id="_r16qcBd2Ee2nfb7vqZSisA" entityName="ProviderComponent">
+            <entity xsi:type="resourceenvironment:ResourceContainer" href="mobilityresourceenvironment.resourceenvironment#_YShAoAtfEe2IgscPlV5AQA"/>
+          </match>
+        </target>
+      </rule>
+    </policy>
+  </policyset>
+  <attributes>
+    <attribute xsi:type="systemcontext:SimpleAttribute" id="_0Tl2shGqEe2FHuMBQuQleQ" entityName="Role">
+      <attributevalue id="_1Kis0BGqEe2FHuMBQuQleQ" entityName="ProviderAdmin">
+        <values>ProviderAdmin</values>
+      </attributevalue>
+      <attributevalue id="_6Qi9UBGqEe2FHuMBQuQleQ" entityName="AgencyAdmin">
+        <values>AgencyAdmin</values>
+      </attributevalue>
+      <attributevalue id="_ZNTwkBd2Ee2nfb7vqZSisA" entityName="RESTApi">
+        <values>RestAPI</values>
+      </attributevalue>
+    </attribute>
+  </attributes>
+</context:ConfidentialAccessSpecification>

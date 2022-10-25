@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<resourceenvironment:ResourceEnvironment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:resourceenvironment="http://palladiosimulator.org/PalladioComponentModel/ResourceEnvironment/5.2" entityName="MobilityResourceEnvironment">
+  <linkingResources__ResourceEnvironment id="_nKuyEAtfEe2IgscPlV5AQA" entityName="Network" connectedResourceContainers_LinkingResource="_YShAoAtfEe2IgscPlV5AQA _V_TA0AtfEe2IgscPlV5AQA">
+    <communicationLinkResourceSpecifications_LinkingResource id="_nKvZIAtfEe2IgscPlV5AQA">
+      <latency_CommunicationLinkResourceSpecification/>
+      <throughput_CommunicationLinkResourceSpecification/>
+    </communicationLinkResourceSpecifications_LinkingResource>
+  </linkingResources__ResourceEnvironment>
+  <resourceContainer_ResourceEnvironment id="_V_TA0AtfEe2IgscPlV5AQA" entityName="AgencyApplication"/>
+  <resourceContainer_ResourceEnvironment id="_YShAoAtfEe2IgscPlV5AQA" entityName="Provider1"/>
+</resourceenvironment:ResourceEnvironment>

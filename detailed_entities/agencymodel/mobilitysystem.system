@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ASCII"?>
+<system:System xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:composition="http://palladiosimulator.org/PalladioComponentModel/Core/Composition/5.2" xmlns:repository="http://palladiosimulator.org/PalladioComponentModel/Repository/5.2" xmlns:system="http://palladiosimulator.org/PalladioComponentModel/System/5.2" id="_n8FNADaBEe2ZjtNGKoCfqA" entityName="Mobility System">
+  <assemblyContexts__ComposedStructure id="_2eY_4DaBEe2ZjtNGKoCfqA" entityName="Assembly_AgencyApplication">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#__WaGcAqwEe2IgscPlV5AQA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_38pGkDaBEe2ZjtNGKoCfqA" entityName="Assembly_Provider1Application">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#_6jFhYAqwEe2IgscPlV5AQA"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_5QPccDaBEe2ZjtNGKoCfqA" entityName="Assembly_ProviderDatabaseManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#_mSBc8C9EEe29UuYapkbhlg"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_672CoDaBEe2ZjtNGKoCfqA" entityName="Assembly_ProviderUserManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#_4eOYICrlEe2NtdXg50Vu3g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_7-o8YDaBEe2ZjtNGKoCfqA" entityName="Assembly_Vehicle">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#_rP2SUCrlEe2NtdXg50Vu3g"/>
+  </assemblyContexts__ComposedStructure>
+  <assemblyContexts__ComposedStructure id="_8kQx8DaBEe2ZjtNGKoCfqA" entityName="Assembly_ProviderVehicleManager">
+    <encapsulatedComponent__AssemblyContext xsi:type="repository:BasicComponent" href="mobilityrepository.repository#_7nQq0CrTEe2NtdXg50Vu3g"/>
+  </assemblyContexts__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_WQGeADaCEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_Sg7dkDaCEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_2eY_4DaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_DWJScAqxEe2IgscPlV5AQA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_W2XMwDaCEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_TYD54DaCEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_2eY_4DaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_LlNloAqxEe2IgscPlV5AQA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_fq3vUDaCEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_dUZnMDaCEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_38pGkDaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_JBSQUAqxEe2IgscPlV5AQA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_mLxQgDaCEe2ZjtNGKoCfqA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_2eY_4DaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_6WgdkBQqEe2liLCwGOTKiw"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_7TtFoBQqEe2liLCwGOTKiw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_MBHFADaDEe2ZjtNGKoCfqA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_2eY_4DaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_L1IigBQpEe2liLCwGOTKiw"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_M2iVIBQpEe2liLCwGOTKiw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_siAkYDaDEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_qvrEEDaDEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_672CoDaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_k6A48CumEe25ieRmRn0Hpw"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:RequiredDelegationConnector" id="_Os0A0DaEEe2ZjtNGKoCfqA" entityName="newRequiredDelegationConnector" outerRequiredRole_RequiredDelegationConnector="_MQmdEDaEEe2ZjtNGKoCfqA" assemblyContext_RequiredDelegationConnector="_5QPccDaBEe2ZjtNGKoCfqA">
+    <innerRequiredRole_RequiredDelegationConnector href="mobilityrepository.repository#_EUWoIC9FEe29UuYapkbhlg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_V38KwDaEEe2ZjtNGKoCfqA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_5QPccDaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_4UX14DXYEe2hY7wnVLLxoA"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_yYZY4C9EEe29UuYapkbhlg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_YswbwDaEEe2ZjtNGKoCfqA" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_7-o8YDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_8kQx8DaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_IMO74DXYEe2hY7wnVLLxoA"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_CqXA8C9EEe29UuYapkbhlg"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_h0ifoDaEEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_e0EYQDaEEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_7-o8YDaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_K1grQDXYEe2hY7wnVLLxoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:ProvidedDelegationConnector" id="_ibpi8DaEEe2ZjtNGKoCfqA" entityName="newProvidedDelegationConnector" outerProvidedRole_ProvidedDelegationConnector="_ffWw8DaEEe2ZjtNGKoCfqA" assemblyContext_ProvidedDelegationConnector="_7-o8YDaBEe2ZjtNGKoCfqA">
+    <innerProvidedRole_ProvidedDelegationConnector href="mobilityrepository.repository#_JrCcMDXYEe2hY7wnVLLxoA"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_4cwMkEfxEe2wEeRlV7WywQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_8kQx8DaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_cqMTUEfrEe2wEeRlV7WywQ"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_XjZ_sEfrEe2wEeRlV7WywQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_5L-qEEfxEe2wEeRlV7WywQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_8kQx8DaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_aMtkQEfrEe2wEeRlV7WywQ"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_d87tkEfrEe2wEeRlV7WywQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_6MWh8EfxEe2wEeRlV7WywQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_672CoDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_OQmNAEfqEe2wEeRlV7WywQ"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_MrhFkEfqEe2wEeRlV7WywQ"/>
+  </connectors__ComposedStructure>
+  <connectors__ComposedStructure xsi:type="composition:AssemblyConnector" id="_6yIIgEfxEe2wEeRlV7WywQ" entityName="newAssemblyConnector" requiringAssemblyContext_AssemblyConnector="_38pGkDaBEe2ZjtNGKoCfqA" providingAssemblyContext_AssemblyConnector="_672CoDaBEe2ZjtNGKoCfqA">
+    <providedRole_AssemblyConnector href="mobilityrepository.repository#_aIBuAEfqEe2wEeRlV7WywQ"/>
+    <requiredRole_AssemblyConnector href="mobilityrepository.repository#_c1dkoEfqEe2wEeRlV7WywQ"/>
+  </connectors__ComposedStructure>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_Sg7dkDaCEe2ZjtNGKoCfqA" entityName="AgencyProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_0LRDsAqwEe2IgscPlV5AQA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_TYD54DaCEe2ZjtNGKoCfqA" entityName="PolicyProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_5ByGsAqwEe2IgscPlV5AQA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_dUZnMDaCEe2ZjtNGKoCfqA" entityName="ProviderProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_tX_V4AqsEe2IgscPlV5AQA"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_qvrEEDaDEe2ZjtNGKoCfqA" entityName="ProviderUserInterfaceProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_InLhACucEe25ieRmRn0Hpw"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_e0EYQDaEEe2ZjtNGKoCfqA" entityName="VehicleProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_AsqggCunEe25ieRmRn0Hpw"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <providedRoles_InterfaceProvidingEntity xsi:type="repository:OperationProvidedRole" id="_ffWw8DaEEe2ZjtNGKoCfqA" entityName="DeviceConnectorProvidedRole">
+    <providedInterface__OperationProvidedRole href="mobilityrepository.repository#_zAlMACubEe25ieRmRn0Hpw"/>
+  </providedRoles_InterfaceProvidingEntity>
+  <requiredRoles_InterfaceRequiringEntity xsi:type="repository:OperationRequiredRole" id="_MQmdEDaEEe2ZjtNGKoCfqA" entityName="ProviderDatabaseManagerRequiredRole">
+    <requiredInterface__OperationRequiredRole href="mobilityrepository.repository#_2mOrQC9EEe29UuYapkbhlg"/>
+  </requiredRoles_InterfaceRequiringEntity>
+</system:System>
