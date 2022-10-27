@@ -23,6 +23,8 @@ The second version of the second iteration (v2.2) can be found in the folder *de
 
 The third version of the second iteration (v2.3) can be found in the folder *detailed_entities/policymodel*.
 
+The visual representations can be found in the **_representations* folder.
+
 ## How to use the model?
 1. Follow the installation instruction of the Palladio-Bench [here](https://fluidtrust.github.io/attack-propagation-doc/general/installation.html#palladio-bench-attack-drop).
 2. Import the model via Eclipse.
