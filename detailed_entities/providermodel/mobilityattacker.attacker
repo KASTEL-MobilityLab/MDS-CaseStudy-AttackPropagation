@@ -2,9 +2,9 @@
 <attacker:AttackerSpecification xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:attack="http://www.palladiosimulator.org/pcm/confidentiality/attacker/0.1/" xmlns:attacker="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/" xmlns:pcmIntegration="http://www.palladiosimulator.org/pcm/confidentiality/attack/0.1/pcmIntagration/">
   <attackers>
     <attacker id="_pkDk4BSqEe2C_4gtjShmsw" entityName="AgencyControlPolicyCompromiser" attacks="_ikXO4BSqEe2C_4gtjShmsw">
-      <compromisedComponents xsi:type="pcmIntegration:PCMElement" id="asdasd" entityName="asdasd">
-        <assemblycontext href="mobilitysystem.system#_JatGcBQ0Ee2C_4gtjShmsw"/>
-      </compromisedComponents>
+      <compromisedResourceElements xsi:type="pcmIntegration:PCMElement" id="UserAttacker" entityName="AttackerSpecification">
+        <resourcecontainer href="mobilityresourceenvironment.resourceenvironment#_ks5cwC9FEe29UuYapkbhlg"/>
+      </compromisedResourceElements>
     </attacker>
   </attackers>
   <attacks>
@@ -17,8 +17,13 @@
     <categories xsi:type="attack:CWEID" id="_MDwvwBSqEe2C_4gtjShmsw" entityName="CWE 284: Improper Access Control" cweID="284"/>
   </categoryspecification>
   <systemintegration>
-    <vulnerabilities xsi:type="pcmIntegration:VulnerabilitySystemIntegration" id="_NTMh4BSrEe2C_4gtjShmsw" entityName="IntegrationOf284ToAgency" vulnerability="_VpdesBSqEe2C_4gtjShmsw">
-      <pcmelement id="asdasdasda" entityName="asdasd">
+    <vulnerabilities xsi:type="pcmIntegration:VulnerabilitySystemIntegration" id="_NTMh4BSrEe2C_4gtjShmsw" entityName="IntegrationOf284ToProviderVehicleManager" vulnerability="_VpdesBSqEe2C_4gtjShmsw">
+      <pcmelement id="ProviderUserManagerVulnerability" entityName="VulnerabilityIntegationForProviderVehicleManager">
+        <assemblycontext href="mobilitysystem.system#_672CoDaBEe2ZjtNGKoCfqA"/>
+      </pcmelement>
+    </vulnerabilities>
+    <vulnerabilities xsi:type="pcmIntegration:VulnerabilitySystemIntegration" id="_jpS8kDdaEe2yfPUt-99F8Q" entityName="IntegrationOf284ToAgency" vulnerability="_VpdesBSqEe2C_4gtjShmsw">
+      <pcmelement id="AgencyAndProviderNetworkVulnerability" entityName="VulnerabilityIntegrationForAgencyAndProvider1Network">
         <linkingresource href="mobilityresourceenvironment.resourceenvironment#_nKuyEAtfEe2IgscPlV5AQA"/>
       </pcmelement>
     </vulnerabilities>
