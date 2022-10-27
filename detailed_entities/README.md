@@ -22,8 +22,6 @@
 ![Final MobilityResourceEnvironment Diagram](https://user-images.githubusercontent.com/54323073/198398123-3ec57145-0ff2-41b7-b110-e34474bac1b9.jpg)
 ### Allocation
 ![Final MobilityAllocation Diagram](https://user-images.githubusercontent.com/54323073/198398118-73c9182a-729c-47b4-9ca8-9d641ff7cf0d.jpg)
-### System
-![Final Mobility System Diagram](https://user-images.githubusercontent.com/54323073/198398099-b11fc692-faa2-43f6-83dd-a9e3723440ac.jpg)
 ### Result
 ![Final Result](https://user-images.githubusercontent.com/54323073/198398128-e102c1da-ed3c-4fde-b417-87d9c45959a6.png)
 
