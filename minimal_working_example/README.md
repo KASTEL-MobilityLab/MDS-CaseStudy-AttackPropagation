@@ -1,4 +1,4 @@
-# Representations of the second iteration
+# Representations of the first iteration
 
 ## v1.0
 
